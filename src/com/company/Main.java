@@ -8,6 +8,7 @@ public class Main {
 //  Child child = new Child();
 //        SubChild subChild = new SubChild();
         Parent p1 = new SubChild();
+        
         Parent p2 = new SubChild();
 //        SubChild p3 = (SubChild) new Parent();
         SubChild p3 = (SubChild) p2;

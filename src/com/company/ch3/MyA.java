@@ -13,6 +13,7 @@ public class MyA {
     public MyA(String name) {
 //        System.out.println("END string parameter");
         this(Integer.parseInt(name));
+        
         System.out.println("\t\t\tEND string parameter");
     }
 }
